@@ -1,0 +1,101 @@
+/* Name: Haosen Yao Student Id: 8919605 Condor Id: Hyao9605 */
+
+html {
+    /* font	Sets all the font properties in one declaration	font-style, font-variant, font-weight, font-size/line-height, font-family, caption, icon, menu, message-box, small-caption, status-bar, inherit
+    font-family	Specifies the font family for text	family-name, generic-family, inherit
+    font-size	Specifies the font size of text	xx-small, x-small, small, medium, large, x-large, xx-large, smaller, larger, length, %, inherit
+    font-style	Specifies the font style for text	normal, italic, oblique, inherit
+    font-variant	Specifies whether or not a text should be displayed in a small-caps font	normal, small-caps, inherit
+    font-weight	Specifies the weight of a font	normal, bold, bolder, lighter,
+    100, 200, 300, 400, 500, 600, 700, 800, 900, inherit
+    Careful, many of these are not supported! */
+    font: normal normal normal 20px Arial, sans-serif
+}
+
+
+h1, h2 {
+    font-variant: small-caps;
+    color: darkslategray;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.2rem; 
+}
+
+footer p {
+    font-size: 0.5rem; 
+}
+
+body {
+    width: 80%; 
+    max-width: 1250px; 
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.main-section-figure img {
+    width: 50%; 
+    height: 50%; 
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.main-section-figure {
+    width: 80%; 
+    height: 80%; 
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+video {
+    width: 50%;
+    height: 50%; 
+    padding: 0.5rem;
+    border: 2px solid rgb(102, 153, 51);
+    border-radius: 0.5rem;
+}
+
+header, footer {
+    text-align: center;
+    border: 2px solid #333333;
+    background: rgb(240, 240, 240);
+    background: linear-gradient(to right, rgb(240, 240, 240), rgb(100, 250, 250));
+}
+
+.main-section {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: hsla(210, 50%, 50%, 0.5);
+}
+
+#Biography {
+    text-align: left;
+}
+
+#Quote {
+    padding: 0.5em;
+    border: 0.1rem solid #999;
+    box-shadow: 0.2em 0.2em 0.2em 0em #333;
+}
+
+#relative-path-image {
+    border: 2px solid rgb(255, 251, 0);
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: hsla(0, 0%, 85%, 0.3);
+}
+
+#absolute-path-image {
+    border: 2px solid rgb(153, 51, 51); /* Red */
+    border-radius: 0.5rem; /* Rounded corners */
+    color: rgb(153, 51, 51);
+    background-color: hsla(120, 50%, 70%, 0.3);
+}
