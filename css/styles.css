@@ -83,7 +83,7 @@ header, footer {
 #Quote {
     padding: 0.5em;
     border: 0.1rem solid #999;
-    box-shadow: 0.2em 0.2em 0.2em 0em #333;
+    box-shadow: 0.2em 0.2em 0.2em green;
 }
 
 #relative-path-image {
