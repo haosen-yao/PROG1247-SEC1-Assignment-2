@@ -227,6 +227,9 @@ footer {
 }
 
 label {
+    font-weight: 100;
+    font-variant: normal;
+    color:black;
     margin: left;
     padding: auto;
     text-align: left;
