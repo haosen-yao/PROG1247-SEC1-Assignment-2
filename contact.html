@@ -1,0 +1,132 @@
+<!-- Name: Haosen Yao, Student Id: 8919605, Condor Id: Hyao9605 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Two SEO tags -->
+    <meta name="keywords" content="Norman,Bethune,白求恩">
+    <meta name="description" content="This is a site written for finishing an assignment.">
+    
+    <!-- link css files in the correct order -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Norman Bethune</title>
+</head>
+<body>
+    <!-- 1 header -->
+    <header>
+        <h1>Norman Bethune</h1>
+    </header>
+    <!-- 1 main -->
+    <nav>
+        <ul>
+            <li id="home-link">
+                <a href="index.html" id="firstLink">Home</a>
+            </li>
+            <li id="contact-link" >
+                <a href="contact.html" id="secondLink">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Remove all the sections from the main element and replace them with a form. Ensure you change the heading. -->
+    <main id="mainFlow">
+        <section class="main-section">
+            <h2>
+                Contact
+            </h2>   
+        </section>
+        <form class="form" method="post">
+            <!-- The form should include the following:
+                • Minimum of 3 different types of input elements
+                • Include 1 HTML5 element such as date or color.
+                • Include a select element.
+                • Include a text area. -->
+
+                <!-- Form Control Attributes
+                • Ensure all control have an id and name attribute.
+                • Ensure all labels have a for attribute.
+                • Use the Value attribute as needed.
+                • Add at least one each the following attributes to controls:
+                o Placeholder
+                o Required
+                o Autofocus
+                o Selected/Checked     -->
+            <label for="name">NAME</label>
+            <br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="birthdate">DATE OF BIRTH</label>
+            <br>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+
+            <label for="color">FAVORITE COLOR</label>
+            <br>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="phone">PHONE</label>
+            <br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br><br>
+    
+            <label for="contactMethod">PREFERED METHOD OF CONTACT</label>
+            <select id="gender" name="gender">
+                <option value="" disabled selected>Select</option>
+                <option value="Phone">Phone</option>
+                <option value="Email">Email</option>
+            </select><br><br>
+    
+            <label for="message">MESSAGE</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <label for="HumanTest">I AM NOT A ROBOT</label>
+            <input type="checkbox">
+            <input type="submit" id="submit" value="Submit">
+
+        </form>
+    </main>
+    <!-- 1 foot -->
+
+    <aside id="asideFlow">
+        <h3> FAQS
+            <table>
+                <tbody>
+                    <tr> 
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                </tbody>
+               
+            </table>
+        </h3>
+        <h3> Resources
+            <dl>
+                <li><a href="https://www.ncbi.nlm.nih.gov">Canadian</a></li>
+                <li><a href="https://zh.wikipedia.org/">Wikipedia</a></li>
+                <li><a href="https://www.google.com/">Google</a></li>
+            </dl>
+        </h3>
+    </aside>
+
+    <footer>
+        <p>
+            &copy;<i>Haosen Yao, 2024</i>
+        </p>
+    </footer>
+</body>
+</html>

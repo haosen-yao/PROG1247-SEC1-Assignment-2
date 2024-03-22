@@ -39,6 +39,7 @@ body {
     max-width: 1250px; 
     padding: 2rem;
     margin: 0 auto;
+    background-color: hsla(210, 50%, 50%, 0.5);
 }
 
 .main-section-figure img {
@@ -73,7 +74,7 @@ header, footer {
 .main-section {
     text-align: center;
     padding: 1.5rem;
-    background-color: hsla(210, 50%, 50%, 0.5);
+    /* background-color: hsla(210, 50%, 50%, 0.5); */
 }
 
 #Biography {
@@ -98,4 +99,186 @@ header, footer {
     border-radius: 0.5rem; /* Rounded corners */
     color: rgb(153, 51, 51);
     background-color: hsla(120, 50%, 70%, 0.3);
+}
+
+#asideFlow h3 {
+    font-variant: normal;
+    text-align: center;
+    color: rgb(8, 68, 26);
+}
+
+#asideFlow table {
+    width: 100%;
+    margin: auto;
+}
+th {
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    font-variant: normal;
+    color: rgb(0, 0, 0);
+}
+td.title {
+    width: 15%;
+    border : .25rem solid black;
+    text-align: center;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: normal;
+    color: rgb(0, 0, 0);
+}
+td.data {
+    width: 15%;
+    text-align: center;
+    border : .25rem solid black;
+    font-weight: 100;
+    font-style: italic;
+    font-variant: normal;
+    color: rgb(3, 7, 31);
+}
+aside li {
+    list-style-type: none;
+    line-height: 200%;
+    text-align: left;
+}
+aside li a {
+    text-decoration: none;
+    color: purple;
+}
+aside li a:hover {
+    color: white;
+}
+
+nav {
+    background-color: rgb(100, 250, 250);
+    padding : .25rem;
+    margin : .25rem;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 1rem 1.5rem 1rem ;
+    margin : 0.25rem;
+}
+
+nav ul li a{
+    box-sizing:border-box;
+    background-color: white;
+    border: 0.1rem solid purple;
+    display: block;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+nav ul li a:hover{
+    background-color: purple;
+    border-color: white; 
+    color: white;
+}
+#firstLink {
+    float: left;
+    width:50%;
+}
+#secondLink {
+    float: right;
+    width: 50%;
+}
+
+main {
+    box-sizing: border-box;
+    clear : both;
+    /* margin : .25rem; */
+    padding : .25rem;
+    float : left;
+    width : 70%;
+}
+aside {
+    box-sizing: border-box;
+    /* margin : .25rem; */
+    float : right;
+    padding : .25rem;
+    width : 30%;
+}
+footer {
+    clear : both;
+}
+#Biography{
+    float : left;
+    width : 45%;
+}
+
+#relative-path-image{
+    float : right;
+    width : 35%;
+    margin-top: 0;
+}
+
+#Quote {
+    clear: both;
+}
+
+.form {
+    align-self: start;
+    padding: auto;
+    margin: left;
+}
+
+label {
+    margin: left;
+    padding: auto;
+    text-align: left;
+}
+#color {
+    width: 80%; 
+    padding: auto;
+    margin: auto;
+    height: 2rem;
+}
+#name,#birthdate,#email,#phone,#gender,#message,#submit,textarea,select{
+    width: 80%;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+@media (max-width : 900px) {
+    html {
+        font-size: 15px;
+    }
+    #Biography{
+        float : none;
+        width : 80%
+    }
+    #relative-path-image{
+        float : none;
+        width : 80%;
+        margin-top: 0;
+    }
+}
+@media (max-width : 600px) {
+    main {
+        width: 100%;
+    }
+    html {
+        font-size: 10px;
+    }
+    #firstlink {
+        float : none;
+        width : 80%
+    }
+    #secondlink{
+        float : none;
+        width : 80%;
+        margin-top: 0;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    table {
+        margin: auto;
+    }
 }

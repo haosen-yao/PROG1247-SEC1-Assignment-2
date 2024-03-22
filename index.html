@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Meta tag for a responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Two SEO tags -->
     <meta name="keywords" content="Norman,Bethune,白求恩">
@@ -20,7 +21,20 @@
         <h1>Norman Bethune</h1>
     </header>
     <!-- 1 main -->
-    <main>
+    <!-- Add a nav element above the main -->
+    <!-- Add a list of two links that direct to the index.html page and the new contact.html page. -->
+    <nav>
+        <ul>
+            <li id="home-link">
+                <a href="index.html" id="firstLink">Home</a>
+            </li>
+            <li id="contact-link" >
+                <a href="contact.html" id="secondLink">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="mainFlow">
         <!-- 4 sections -->
         <section class="main-section">
             <h2>
@@ -37,23 +51,24 @@
             </blockquote>
         </section>
         <section class="main-section">
-            <h2>
+            <!-- Use a comment to remove the figure containing the image with the absolute path. -->
+            <!-- <h2>
                 Images
-            </h2>
-            <figure class="main-section-figure" id="absolute-path-image">
+            </h2> -->
+            <!-- <figure class="main-section-figure" id="absolute-path-image">
                 <img src="https://med-fom-cbr.sites.olt.ubc.ca/files/2012/02/NB.jpg" alt="Norman's figure">
                 <figcaption>Norman_Bethune</figcaption>
-            </figure>
+            </figure> -->
             <figure class="main-section-figure" id="relative-path-image">
                 <img src="image\Norman_Bethune_graduation_1922.jpg" alt="Norman's figure">
                 <figcaption>Young Norman_Bethune</figcaption>
             </figure>
         </section>
         <section class="main-section">
-            <h2>
-                Quote
-            </h2>
             <blockquote id="Quote" cite="https://en.wikipedia.org/wiki/Norman_Bethune">
+                <h2>
+                    Quote
+                </h2>
                 <q>
                     Comrades, who fought for freedom and the future world,
                     who died for us, we will remember you.
@@ -75,6 +90,44 @@
         </section>
     </main>
     <!-- 1 foot -->
+    <!-- Add an aside element below the main -->
+    <aside id="asideFlow">
+        <!-- Add an h3 heading. -->
+        <h3> FAQS
+            <!-- Add a table with FAQs about your person. -->
+            <table>
+                <tbody>
+                    <tr> 
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr>
+                        <td class="title">Title</td>
+                        <td class="data">data</td>
+                    </tr>
+                </tbody>
+               
+            </table>
+        </h3>
+        <!-- Add another h3 heading. -->
+        <h3> Resources
+            <dl>
+                <!-- Add a list of external links that open in a new tab about your person. -->
+                <li><a href="https://www.ncbi.nlm.nih.gov">Canadian</a></li>
+                <li><a href="https://zh.wikipedia.org/">Wikipedia</a></li>
+                <li><a href="https://www.google.com/">Google</a></li>
+            </dl>
+        </h3>
+    </aside>
+
     <footer>
         <p>
             &copy;<i>Haosen Yao, 2024</i>
